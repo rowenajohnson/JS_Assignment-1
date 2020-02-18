@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+body {
+  background: white;
+  width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.image {
+  background-image: url(../image/image.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 672px;
+  height: 411px;
+  margin: 0 auto;
+}
+
+h2 {
+  height: 100px;
+  width: 170px;
+  position: absolute;
+  top: 90px;
+  right: 140px;
+  color: white;
+}
+button {
+  position: absolute;
+  border-radius: 50%;
+  background: transparent;
+}
+
+button.left {
+  height: 30px;
+  width: 30px;
+}
+
+button.subjects.left {
+  top: 8px;
+  left: 480px;
+}
+
+button.verbs.left {
+  top: 10px;
+  left: 530px;
+}
+
+button.adjectives.left {
+  top: 12px;
+  left: 590px;
+}
+
+button.objects.left {
+  top: 14px;
+  left: 643px;
+}
+
+button.places.left {
+  top: 18px;
+  left: 695px;
+}
+
+button.right {
+  height: 35px;
+  width: 35px;
+}
+button.subjects.right {
+  top: 34px;
+  right: 675px;
+}
+
+button.verbs.right {
+  top: 34px;
+  right: 622px;
+}
+
+button.adjectives.right {
+  top: 34px;
+  right: 575px;
+}
+
+button.objects.right {
+  top: 34px;
+  right: 520px;
+}
+
+button.places.right {
+  top: 34px;
+  right: 470px;
+}
+
+button.surprises.right {
+  bottom: 390px;
+  right: 520px;
+}
+
+button.playback.right {
+  bottom: 380px;
+  right: 458px;
+}
+
+img.speaker {
+  display: none;
+  position: absolute;
+  bottom: 49px;
+  right: 160px;
+  height: 120px;
+  width: 120px;
+}
+@media (max-width: 960px) {
+  .Container {
+    width: auto;
+  }
+}
